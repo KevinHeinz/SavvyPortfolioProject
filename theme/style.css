@@ -1,0 +1,23 @@
+<style>
+  color:#3f88b5;
+  font-size: 5em;
+}
+body {
+  background-color:#3bcbff;
+}
+.backdrop {
+  background-color:#FFEB3B;
+}
+.mid-width {
+  width: 500px;
+}
+#barf {
+  background-color: chartreuse;
+}
+p {
+  background-color: yellowgreen;
+}
+ol {
+  background-color: #9C27B0;
+}
+</style>

@@ -1,23 +1,97 @@
-<style>
-  color:#3f88b5;
-  font-size: 5em;
-}
 body {
-  background-color:#3bcbff;
+  color: darkblue;
+  font-size: 2em;
+  font-family: 'Lobster';
+  background-color: dimgray;
 }
+
 .backdrop {
-  background-color:#FFEB3B;
+  background-color:light-blue;
 }
+
 .mid-width {
-  width: 500px;
+  width: 200px;
 }
+
+#navigation > ul > li {
+  display: inline;
+  list-style: none;
+  margin: 2px;
+  padding: 4px;
+}
+
+#navigation {
+  padding: 4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2.5rem;
+  width: 100vw;
+  background-color: slate-blue;
+}
+
+#navigation a:hover + .dropdown,
+#navigation .dropdown:hover {
+  display: block;
+  padding: 5px;
+}
+
+#navigation li:first-child {
+  position: relative;
+}
+
+#navigation .dropdown {
+  display: none;
+  position: absolute;
+  left: -2rem;
+}
+
+#navigation ul.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  padding-top: 155px;
+  margin: 20px;
+}
+
+#choiceBoxes {
+  padding-top: 10px;
+}
+
+#heardAboutFromDropbox {
+  padding-top: 50px;
+}
+
+.container {
+  background-color: gainsboro;
+  max-width:760px;
+  margin: 0 auto;
+}
+
 #barf {
-  background-color: chartreuse;
+  background-color: turquoise;
 }
+
 p {
-  background-color: yellowgreen;
+  background-color: lightcyan;
 }
-ol {
-  background-color: #9C27B0;
+
+ol li {
+  border: solid 1px lightcyan;
 }
-</style>
+
+#content > ul {
+  color:darkblue;
+}
+
+ol.container {
+  background-color: steelblue;
+}
+
+#welcome {
+  padding: 50px;
+}

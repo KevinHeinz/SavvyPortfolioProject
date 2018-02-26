@@ -7,7 +7,7 @@ body {
 
 
 .backdrop {
-  background-color:light-blue;
+  background-color:darkgray;
 }
 
 .mid-width {
@@ -28,7 +28,7 @@ body {
   left: 0;
   height: 2.5rem;
   width: 100vw;
-  background-color: slate-blue;
+  background-color: darkgray;
 }
 
 #navigation a:hover + .dropdown,
@@ -68,21 +68,21 @@ body {
 }
 
 .container {
-  background-color: gainsboro;
+  background-color: darkgray;
   max-width:760px;
   margin: 0 auto;
 }
 
 #barf {
-  background-color: turquoise;
+  background-color: darkgray;
 }
 
 p {
-  background-color: lightcyan;
+  background-color: white;
 }
 
 ol li {
-  border: solid 1px lightcyan;
+  border: solid 1px white;
 }
 
 #content > ul {

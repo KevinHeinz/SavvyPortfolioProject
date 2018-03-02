@@ -8,26 +8,25 @@ var story = {
 };
 
 var choice = prompt( story.start );
-var choiceTwo;
-var choiceThree;
 
-console.log( choice );
+console.log( story[choice] );
 
 if( choice === "mirror" || choice === "bathroom" ){
+    console.log( story[choice] );
+}
+else{
+    console.log( "You didn't choose a real option." );
+}
+
+choice = prompt( story[choice] );
+
+if( choice === "livingRoom" || choice === "followPaper" ){
     console.log( choice );
 }
 else{
     console.log( "You didn't choose a real option." );
 }
 
-choiceTwo = prompt( Enter your next choice. );
+choice = prompt( story[choice] );
 
-if( choiceTwo === "livingRoom" || choiceTwo === "followPaper"){
-    console.log( choiceTwo );
-}
-else{
-    console.log( "You didn't choose a real option." );
-choiceThree = prompt( Enter your next choice. );
-if( choiceThree === () ){
-    console.log( You got it. )
-}
+alert( "You got it." );

@@ -1,16 +1,24 @@
-var someSelector = prompt( "Give me a selector" );
-var greetUser = function greetUser(){
-    var firstName = prompt( "What's your name?" );
+var $h1 = $( "h1" );
+var $user = $( "#user" );
+var title = $h1.text();
 
-    if( !firstName ){
+
+function greetUser(){
+    var firstName = $user.val();
+
+    if( firstName ){
+        $h1.text( title + ", " + firstName );
+    }
+}
+
+function inputCallBack( event ){
+    if( event.which === 13 ){
         greetUser();
     }
-    else{
-        document.querySelector( someSelector ).src = "https://i.imgur.com/voBEvDE.jpg";
-    }
-};
+}
 
-greetUser();
+$user.on( "keypress", inputCallBack );
+$( "#greet" ).on( "click", greetUser );
 
 
 /* var getInfo = function getInfo(){

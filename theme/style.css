@@ -7,7 +7,7 @@ body {
 
 
 .backdrop {
-  background-color:darkgray;
+  background-color:black;
 }
 
 .mid-width {
@@ -74,15 +74,15 @@ body {
 }
 
 #barf {
-  background-color: darkgray;
+  background-color: black;
 }
 
 p {
-  background-color: white;
+  background-color: black;
 }
 
 ol li {
-  border: solid 1px white;
+  border: solid 1px black;
 }
 
 #content > ul {

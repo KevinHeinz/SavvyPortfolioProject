@@ -6,16 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <link rel="stylesheet" href="../theme/style.css">
+  <link rel="stylesheet" href="./theme/style.css">
   <div id="navigation">
     <ul class="container">
       <li>
         <a href="../projects">projects</a>
-        <ul class="dropdown">
+    <ul class="dropdown">
           <li>First</li>
           <li>Second</li>
           <li>Third</li>
-        </ul>
+    </ul>
       </li>
       <li><a href="../">home</a></li>
     </ul>
@@ -24,8 +24,10 @@
 <body>
   <div class="backdrop full-width">
     <div id="welcome">
-    <h4>Welcome to Kevin's Savvy Coders website!!</h4>
-    <h5>February 2018</h5>
+    <h2>Welcome to Kevin's Savvy Coders website!!</h2>
+    <h3>February 2018</h3>
+    <input id="user" type="text">
+    <button id="greet">Click me!</button>
     </div>
     <p>This portfolio will hold all the activities we tackle in the Feb. 2018 Savvy Coders class.</p>
   <div id="barf">
@@ -38,7 +40,9 @@
   </div>
 
   <img src="https://i.imgur.com/voBEvDE.jpg" alt="That's Kevin.">
-  <script type="text/javascript" src="js/greeting.js">
-  </script>
+  <div id="output"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sandbox.js"></script>
+    <script type="text/javascript" src="js/greeting.js"></script>
 </body>
 </html>
